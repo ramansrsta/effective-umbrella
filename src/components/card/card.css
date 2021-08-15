@@ -1,0 +1,26 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+.add-cart {
+    border-style: none;
+    color: white;
+    background-color: blue;
+    height: 7vh;
+}
+
+.add-cart:hover {
+    background-color: rgb(88, 111, 211);
+}
